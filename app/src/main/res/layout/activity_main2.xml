@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="#F44336">
+
+        <ImageView
+            android:layout_width="173dp"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/measuring_tape" />
+
+        <Button
+            android:id="@+id/lenBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FDFAFA"
+            android:text="LENGTH CONVERSION"
+            android:textColor="#0C0C0C"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="#03A9F4">
+
+        <ImageView
+            android:layout_width="166dp"
+            android:layout_height="111dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/weight" />
+
+        <Button
+            android:id="@+id/weightBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FDFAFA"
+            android:text="WEIGHT CONVERSION"
+            android:textColor="#0C0C0C"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:background="#FFEB3B">
+
+        <ImageView
+            android:layout_width="158dp"
+            android:layout_height="97dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/temperature" />
+
+        <Button
+            android:id="@+id/tempBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FDFAFA"
+            android:text="TEMPERATURE CONVERSION"
+            android:textColor="#0C0C0C"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
